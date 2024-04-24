@@ -1,0 +1,83 @@
+.homebar{
+    height:200px;
+    width:100%;
+    background-color: rgb(211, 237, 15);
+    display:block;
+    max-width:auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:50px;
+    position: relative;
+    bottom:8px;
+}
+.btn {
+    width: 200px;
+    height: 50px; /* Changed height for better visibility */
+    background-color: rgb(11, 115, 250);
+    color: white; /* Adding text color */
+    border: 2px solid black; /* Corrected border syntax */
+    text-align: center;
+    display: flex; /* Ensure button text is centered vertically */
+    align-items: center; /* Align button text vertically */
+    justify-content: center; /* Align button text horizontally */
+    text-align: center;
+    justify-items: center;
+    border-radius: 25px;
+}
+
+.btnb {
+    display: flex;
+    justify-content: center; /* Center horizontally */        
+    align-items: center; /* Center vertically */
+    height: 100px; /* Adjust height as needed */
+}
+    
+body{
+    background-color:rgb(219, 236, 184);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.player1{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.player2{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.player1_dice{
+    height:200px;
+    width:200px;
+}
+.player2_dice{
+    height:200px;
+    width:200px;
+}
+img{
+    height: 200px;
+    width:200px;
+}
+.result{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
